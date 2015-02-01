@@ -1,0 +1,28 @@
+a {
+    -moz-transition: all 0.5s ease-out;  /* FF4+ */
+    -o-transition: all 0.5s ease-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.5s ease-out;  /* Saf3.2+, Chrome */
+    -ms-transition: all 0.5s ease-out;  /* IE10? */
+    transition: all 0.5s ease-out;  	
+}
+
+.nav-container {
+    border:1px solid #EEE;
+    margin:10px 0px;
+}
+
+footer {
+    border-top:1px solid #EEE;
+    padding-top:10px;
+    margin-top:10px!important;
+    margin-bottom:30px!important;
+    background: url("../images/header-bg1.jpg") repeat scroll 0% 0% rgb(238, 238, 238);
+}
+
+#footer {
+    background: url("../images/header-bg1.jpg") repeat scroll 0% 0% rgb(238, 238, 238);
+}
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
